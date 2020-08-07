@@ -1,4 +1,4 @@
-title: "Z33DD's Cave"
+title: "Z33DD's Blog"
 author: "Z33DD"
 description: "Cypherpunk, Libertarian and I love coffee."
 permalink: /:title/
@@ -39,8 +39,8 @@ navigation:
   - {file: "README.md", icon: address-card}
 
 external:                    # see http://fontawesome.com/icons
-#  - {title: Mail, icon: envelope, url: "mailto:niklasbuschmann@users.noreply.github.com"}
-#  - {title: Github, icon: github, url: "https://github.com/z33dd"}
+  - {title: Mail, icon: envelope, url: "mailto:Suniotan@protonmail.com"}
+  - {title: Github, icon: github, url: "https://github.com/z33dd"}
   - {title: RSS, icon: rss, url: "/feed.xml"}
 
 comments:
