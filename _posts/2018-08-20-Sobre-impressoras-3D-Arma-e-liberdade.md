@@ -1,5 +1,5 @@
 ---
-title:  "Sobre impressoras 3D, Armas e Anarquia"
+title:  "Sobre impressoras 3D, Armas e Liberdade"
 layout: post
 ---
 
