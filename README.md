@@ -13,6 +13,6 @@ Since 2015, I recognize myself as an anarchist libertarian. Don't worry, I don't
 
 Basically, this is my attempt to start writing a blog. Almost a year ago, I started a Telegram channel to write and share some things in my mind and I really enjoyed the experience. Now, this is my new attempt to build my own place on the World Wide Web to talk to other people about the crazy things in my mind wishes to put out. So _bonsoir, guest_.
 
-All content licensed under [The Open Anarchist License](https://z33dd.github.io/license/) unless otherwise stated.
-
 Favicon made by [photo3idea_studio](https://www.flaticon.com/free-icon/guy-fawkes-mask_2302370) from [www.flaticon.com](https://www.flaticon.com/).
+
+All content licensed under [The Open Anarchist License](https://z33dd.github.io/license/) unless otherwise stated.
