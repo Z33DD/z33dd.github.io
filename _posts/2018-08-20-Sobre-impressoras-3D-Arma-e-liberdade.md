@@ -1,5 +1,6 @@
 ---
 title:  "Sobre impressoras 3D, Armas e Liberdade"
+date: 2018-08-20
 layout: post
 ---
 
