@@ -1,9 +1,10 @@
 <article>
   <header><h1>{{ include.title | default: page.title }}</h1></header>
-  <ul class="archive; list-style-type: '-';">
+  <ul class="font-size: 1.1em; list-style-type: '-';">
     {% for post in site.posts %}
     <li>
-      <a href="{{ post.url | relative_url }}">{{ post.title }} - </a>
+      <a href="{{ post.url | relative_url }}">{{ post.title }} </a>
+      <a>-</a>
       <time datetime="{{ include.post.date | date_to_xmlschema }}">{{ post.date | date: "%d %B, %Y" }}</time>
     </li>
     {% endfor %}
