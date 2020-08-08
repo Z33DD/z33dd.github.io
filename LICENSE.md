@@ -1,4 +1,8 @@
-# The Open Anarchist License
+---
+title: "The Open Anarchist License"
+permalink: "/license/"
+layout: page
+---
 
 Copyright 2019 `Z33DD`
 

@@ -5,6 +5,9 @@ layout: default
 <article>
   {% include meta.html post=page %}
   {{ content }}
+
+  All content licensed under <a = {{ "/license/" | relative_url }}>The Open Anarchist License</a> unless otherwise stated.
+
   {% if page.comments != false and site.comments.isso or site.comments.disqus %}
     <hr>
     {% if site.comments.isso_domain %}<div id="isso-thread"></div>{% endif %}
@@ -12,6 +15,7 @@ layout: default
     <noscript>Please enable JavaScript to view comments.</noscript>
   {% endif %}
 </article>
+
 
 {% if site.show_related %}
   <footer class="related">
