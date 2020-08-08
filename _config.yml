@@ -37,7 +37,7 @@ minimal: true                # use simpler style
 navigation:
   - {file: "index.html", icon: home}
   - {file: "README.md", icon: address-card}
-  - {file: "feed.xml", icon: rss, title: RSS}
+  - {url: "/feed.xml", icon: rss, title: RSS}
 
 external:                    # see http://fontawesome.com/icons
   - {title: Mail, icon: envelope, url: "mailto:Suniotan@protonmail.com"}
