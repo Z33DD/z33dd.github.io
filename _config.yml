@@ -1,10 +1,23 @@
-title: "Blog Title"
-author: "Blog Author"
+title: "Z33DD's Cave"
+author: "Z33DD"
 description: "Made with <b style=\"color: #f45;\">&lt;3</b> by <b><a href=\"https://github.com/niklasbuschmann\">@niklasbuschmann</a></b>"
 permalink: /:title/
 lang: "en"
 excerpt_separator: "\n\n\n"
 date_format: "%B %d, %Y"
+
+# GitHub Pages config - https://docs.github.com/en/github/working-with-github-pages/about-github-pages-and-jekyll
+
+lsi: false
+safe: true
+source: /
+incremental: false
+highlighter: rouge
+gist:
+  noscript: false
+kramdown:
+  math_engine: mathjax
+  syntax_highlighter: rouge
 
 # Layout
 
