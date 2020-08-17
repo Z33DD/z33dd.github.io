@@ -1,4 +1,8 @@
-# About...
+---
+title: "About"
+permalink: "/about/"
+layout: page
+---
 
 ## This Blog
 
@@ -10,4 +14,4 @@ wishes to put out. So _bonsoir, guest_.
 
 ## Me
 
-In working (a existential talk to myself)... Come back later 
+In working (a existential talk to myself)... Come back later
