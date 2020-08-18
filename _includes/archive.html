@@ -4,8 +4,7 @@
     {% for post in site.posts %}
     <li>
       <a href="{{ post.url | relative_url }}">{{ post.title }} </a>
-      <a>-</a>
-      <time datetime="{{ include.post.date | date_to_xmlschema }}">{{ post.date | date: "%d %B, %Y" }}</time>
+      <time datetime="{{ include.post.date | date_to_xmlschema }}">{{ post.date | date: "- %d %B, %Y" }}</time>
     </li>
     {% endfor %}
   </ul>
