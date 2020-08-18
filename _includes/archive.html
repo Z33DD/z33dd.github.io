@@ -3,8 +3,8 @@
   <ul class="archive">
     {% for post in site.posts %}
     <li>
-      {%- assign date_format = site.date_format | default: "%B %d, %Y" -%}
-      <time datetime="{{ include.post.date | date_to_xmlschema }}">{{ include.post.date | date: date_format }}</time>
+      {%- assign date_format = site.date_format | default: "%d %B, %Y" -%}
+      <time datetime="{{ include.post.date | date_to_xmlschema }}">{{ post.date | date: date_format }}</time>
       <a href="{{ post.url | relative_url }}">{{ post.title }}</a>
     </li>
     {% endfor %}
