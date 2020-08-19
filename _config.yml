@@ -37,12 +37,12 @@ minimal: true                # use simpler style
 navigation:
   - {file: "index.html", icon: home}
   - {file: "README.md", icon: address-card}
-  - {url: "/feed.xml", icon: rss, title: RSS}
+#  - {url: "/feed.xml", icon: rss, title: RSS}
 
 external:                    # see http://fontawesome.com/icons
   - {title: Mail, icon: envelope, url: "mailto:Suniotan@protonmail.com"}
   - {title: Github, icon: github, url: "https://github.com/z33dd"}
-#  - {title: RSS, icon: rss, url: "/feed.xml"}
+  - {title: RSS, icon: rss, url: "/feed.xml"}
 
 comments:
 #  disqus_shortname: ""      # see https://disqus.com/
