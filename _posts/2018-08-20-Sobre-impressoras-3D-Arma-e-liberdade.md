@@ -4,7 +4,7 @@ date: 2018-08-20
 layout: post
 ---
 
-![Liberator](https://pbs.twimg.com/media/DjdSbOvW4AA9YZE.jpg)
+![Liberator](../assets/img/liberator.jpg)
 
 Tem um cara aí, o nome dele é Cody Wilson. Ele é um anarcocaptalista que tem uma empresa chamada Defense Distributed, que é focada em fabricar uma impressora 3D para produzir armas de fogo, a Ghost Gunner.
 
