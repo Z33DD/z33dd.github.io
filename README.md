@@ -15,6 +15,4 @@ In really, this is my attempt to start writing a blog. Almost a year ago, I star
 
 Favicon made by [photo3idea_studio](https://www.flaticon.com/free-icon/guy-fawkes-mask_2302370) from [www.flaticon.com](https://www.flaticon.com/).
 
-All content licensed under [The Open Anarchist License][license] unless otherwise stated.
-
 [license]: https://z33dd.github.io/license/
