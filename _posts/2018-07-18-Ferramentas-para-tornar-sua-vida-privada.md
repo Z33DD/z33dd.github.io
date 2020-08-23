@@ -9,8 +9,10 @@ layout: post
 Ok, como vossas senhorias gostaram do último post resolvi escrever mais um pouco e ver até onde isso vai. No primeiro falamos sobre criptomoedas, então seguindo essa vibe cypherpunk vamos ver como você pode assistir seus “vídeos educativos” e traficar aqueles órgãos que não são mais importantes do que um iPhone X sem risco do carrinha da NSA ficar julgando seu fetiche por asiáticas e ruivas.
 
 Primeiramente, privacidade não é questão de ter ou não algo a esconder. As pessoas têm todo o direito de não quererem seus dados, por mais inofensivos que possam ser, com pessoas e instituições nas quais elas não confiam. E caso você ainda seja um daqueles chatos que falam “Quem não deve, não teme”, te desafio a publicar cada intimidade sexual, quanto ganha de salário, brigas com o namorado(a), etc, nas suas redes sociais, nem precisam ser senhas ou números de cartão. Como diria o Sílvio Santos, “*Não consegue né?*”. Então, privacidade é sobretudo uma questão de soberania individual. Afinal, você é um indivíduo com direitos naturais e a sua vida é só sua, dê satisfação sobre ela apenas se quiser e para quem quiser.
-
+<br>
+<div align=center>
 <img align=center src="/assets/img/funny.gif" style="border-style: none;" alt="CC0" />
+</div>
 
 Mas sermões à parte, vamos ao que interessa, que é como proteger sua navegação. Não quero te fazer perder tempo com aquelas soluções radicais que ambos sabemos que pouquíssimas pessoas vão fazer, como deletar a conta no Facebook e no Google ou deixar de usar smartphones. Vamos focar nas soluções que trazem o máximo custo benefício entre segurança e conveniência.
 
