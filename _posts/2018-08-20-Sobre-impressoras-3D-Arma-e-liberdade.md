@@ -10,7 +10,7 @@ Tem um cara aí, o nome dele é Cody Wilson. Ele é um anarcocaptalista que tem 
 
 Essa maravinha libertária rendeu para Cody o título de um dos homens mais perigosos da terra do tio Trump, que inclusive também está na última lista da Wirez. Na verdade, ele apareceu nas listas de mais perrigoso umas três vezes, duas dos EUA(2013 e 2015) e uma da Internet(2017). É, liberdade é uma ideia perigosa…
 
-![Cody Wilson](https://i.huffpost.com/gen/1036270/images/o-CODY-WILSON-DEFENSE-DISTRIBUTED-SXSW-facebook.jpg)
+![Cody Wilson](../assets/img/cody-wilson.jpg)
 
 Legal né? Não para por aí, a DD também desenvolveu o Liberator, uma arma que pode ser feita com impressoras 3D comuns. Mas como ela é feita de plástico ABS (e não de metal como as armas feitas pela Ghost Gunner) provavelmente não durará mais do que 3 tiros, por isso a chamo de descartável.
 
@@ -18,7 +18,7 @@ As armas artesanais sempre existiram desde que o mundo é mundo, mas a possibili
 
 Você até pode não ser um libertário, mas tem que concordar que o Estado sobrevive graças ao monopólio da violência, logo qualquer tentativa de dar armas para as pessoas comuns é uma afronta maior ao domínio estatal do que as dar para criminosos. Uma gangue de ladrões armados não tem o potencial revolucionário que uma população armada tem. Não à toa, o Facebook está começando a banir os links de compartilhamento dos projetos, isso é um golpe muito mais fundo do que aquela treta com o MBL.
 
-![Eu sei, parece uma Nerf mal desenhada, mas faz um estrago…](https://external-content.duckduckgo.com/iu/?u=http%3A%2F%2Fs3.amazonaws.com%2Fdigitaltrends-uploads-prod%2F2013%2F12%2Fliberator-3d-printed-gun.jpg&f=1&nofb=1)
+![Eu sei, parece uma Nerf mal desenhada, mas faz um estrago…](../assets/img/liberator-2.jpeg)
 
 Os projetos do Liberator tornam qualquer tentativa de controle de armas impraticável pois, como não tem número de série, qualquer um que tenha uma impressora 3D em casa pode ter uma arma para chamar de sua. A única forma de impedir que isso acontecesse seria cortar a liberdade da internet, mas, como o Pirate Bay mostrou, isso não daria muito certo. Além do mais, armas convencionais são completamente rastreáveis e têm privacidade zero, basta você dizer aos seus vizinhos que tem uma arma não registrada que maior parte deles vai te colocar do mesmo lado que os traficantes e milicianos das favelas do Rio.
 
@@ -34,7 +34,7 @@ Para os meros mortais aqui do Brasil, pagar 1700 Trumps numa Grost Gunner é imp
 
 Mas eu ainda não respondi como você pode arrumar uma impressora 3D comum e mesmo assim manter seu rim. Tem alguns projetos de impressoras 3D DIY pela Internet, ou seja, engenhocas que você mesmo pode fazer. Não é fácil fazer uma dessas, mas é muito mais barato do que uma pronta. Um desses projetos é o RapRap, que tenta fazer uma coisa parecida com o mostro Frankenstein, impressoras 3D que se auto replicam. Exitem vários modelos, de diferentes capacidades e recursos.
 
-![RapRap](https://i.pinimg.com/originals/bd/cc/21/bdcc213aa6c87f4161de886aa6ebd8b3.jpg)
+![RapRap](../assets/img/rap-rap.jpg)
 
 Embora as RapRap’s sejam legais e tal, a minha favorita é essa aqui. Ela é feita desmontando drivers de disquete e CD de computadores antigos, com poucas peças que precisam ser compradas. **Qual é o preço dessa brincadeira? 60 dólares!**
 
@@ -48,7 +48,7 @@ Eu acredito que Cody Wilson vai fazer pela liberação das armas, o que Ross Ulb
 
 Por um mundo onde essa cena do South Park seja realidade…
 
-![South Park](https://pbs.twimg.com/media/DkkVSJSX0AEvYb6.jpg)
+![South Park](../assets/img/south-park-meme.jpg)
 
 > “Nenhum homem livre pode ser privado do uso de armas”
 ~ Thomas Jefferson
