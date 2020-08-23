@@ -3,7 +3,9 @@
   <ul class="font-size: 1.1em; list-style-type: '-';">
     {% for post in site.posts %}
     <li>
+      <strong>
       <a href="{{ post.url | relative_url }}">{{ post.title }} </a>
+      </strong>
       <time datetime="{{ include.post.date | date_to_xmlschema }}">{{ post.date | date: "– %d %B %Y" }}</time>
     </li>
     {% endfor %}
