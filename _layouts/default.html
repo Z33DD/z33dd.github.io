@@ -20,7 +20,7 @@
 {% if site.comments.isso_domain and page.layout == "post" %}<script data-isso="http://{{ site.comments.isso_domain }}" src="//{{ site.comments.isso_domain }}/js/embed.min.js"></script>{% endif %}
 
 <header class="icons">
-  <a href="{{ "/" | relative_url }}" class="title">{{ site.title | escape }}</a>
+  <a href="{{ "/" | relative_url }}" class="title" style="width: 50%">{{ site.title | escape }}</a>
   <p align="right">{{ site.description }}</p>
 
   {% if site.navigation or site.external %}

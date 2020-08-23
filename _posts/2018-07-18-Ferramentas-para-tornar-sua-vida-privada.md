@@ -9,11 +9,8 @@ layout: post
 Ok, como vossas senhorias gostaram do último post resolvi escrever mais um pouco e ver até onde isso vai. No primeiro falamos sobre criptomoedas, então seguindo essa vibe cypherpunk vamos ver como você pode assistir seus “vídeos educativos” e traficar aqueles órgãos que não são mais importantes do que um iPhone X sem risco do carrinha da NSA ficar julgando seu fetiche por asiáticas e ruivas.
 
 Primeiramente, privacidade não é questão de ter ou não algo a esconder. As pessoas têm todo o direito de não quererem seus dados, por mais inofensivos que possam ser, com pessoas e instituições nas quais elas não confiam. E caso você ainda seja um daqueles chatos que falam “Quem não deve, não teme”, te desafio a publicar cada intimidade sexual, quanto ganha de salário, brigas com o namorado(a), etc, nas suas redes sociais, nem precisam ser senhas ou números de cartão. Como diria o Sílvio Santos, “*Não consegue né?*”. Então, privacidade é sobretudo uma questão de soberania individual. Afinal, você é um indivíduo com direitos naturais e a sua vida é só sua, dê satisfação sobre ela apenas se quiser e para quem quiser.
-<br>
-<div align=center>
+
 <img align=center src="/assets/img/funny.gif" style="border-style: none;" alt="CC0" />
-</div>
-</br>
 
 Mas sermões à parte, vamos ao que interessa, que é como proteger sua navegação. Não quero te fazer perder tempo com aquelas soluções radicais que ambos sabemos que pouquíssimas pessoas vão fazer, como deletar a conta no Facebook e no Google ou deixar de usar smartphones. Vamos focar nas soluções que trazem o máximo custo benefício entre segurança e conveniência.
 
@@ -68,18 +65,15 @@ Existem vários protocolos e apps para conversar anonimamente, dentre os princip
 ![Disroot](/assets/img/Disroot.jpeg)
 
 Disroot é um projeto que eu demorei de encontrar e me achei um completo noob por não o ter achado antes, a ideia da vez é toda uma infraestrutura web de email, nuvem pessoal, chat, fóruns, gerenciadores de projetos, etc. Tudo isso seguindo a filosofia da descrentralização e liberdade, não poderia ser de nenhum outro lugar se não Amsterdã. Com ele você ficará menos dependente dos serviços do Google e Dropbox, além de dar um baita ar de anarquista.
-<br><div align=center>• • •
-</div></br>
+
 
 Então, muitas ultilidades né? Só indiquei coisas que eu uso, não faria sentido se fosse diferente. Nas dicas de leitura de hoje, teremos links para se aprofundar mais nessas tecnologias incríveis que são o TOR e as VPNs. Ao começar a zelar pela minha própria privacidade e segurança, comecei a dormir mais tranquilo e sabendo que, mesmo na distante possibilidade daquele vampiro que ocupa a nossa presidência perca a cabeça amanhã, meus dados estarão a salvo até que ele comece a usar os poderes das trevas (mas, até lá, eu já chamei o Van Helsing pra terminar o serviço)
-<br><div align=center>• • •
-</div></br>
+
 
 ## Dicas de leitura
 - [O blog Deep Web Brasil](https://blog.deepwebbrasil.com/) é uma das maiores autoridades no assunto das redes profundas, e também não espalham informação falsa e mitos sobre a rede. Para entender mais de como o TOR funciona, esse post deles é a escolha certa.
 - [Esse outro link](https://www.tomsguide.com/us/what-is-tor-faq,news-17754.html) é tipo um FAQ sobre a rede Onion e tem links para tutoriais, tudo em inglês if you don’t speak.
 - E [esse texto do Gizmodo](https://gizmodo.com/5990192/vpns-what-they-do-how-they-work-and-why-youre-dumb-for-not-using-one) vai sanar todas as suas dúvidas sobre o que é, como funciona e porque você é estúpido por não usar uma VPN.
-<br><div align=center>• • •
-</div></br>
+
 
 Obrigado a todos mais uma vez, graças ao feedback positivo do último texto eu resolvi escrever mais. Para qualquer dúvida, temos os comentários aqui em baixo. E ainda não tenho certeza sobre o que exatamente será o próximo texto, deixem sugestões por favor.
