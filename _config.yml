@@ -19,6 +19,18 @@ kramdown:
   math_engine: mathjax
   syntax_highlighter: rouge
 
+# Atom
+atom:
+  buildCommand:
+    - jekyll
+    - build
+    - --this
+  buildEnv:
+    JEKYLL_ENV: production
+  postDirs:
+    - _posts
+  defaultPostDir: _drafts
+
 # Layout
 
 sidebar: false               # show a sidebar instead of the usual header
