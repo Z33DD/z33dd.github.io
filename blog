@@ -1,0 +1,121 @@
+#!/usr/bin/env python
+
+import pygit
+from datetime import date
+from git import Repo
+from git import Actor
+import argparse
+import subprocess
+import os
+from os import listdir
+from os.path import isfile, join
+
+
+EDITOR = "cat "
+POST_DIR = '_posts'
+DRAFT_DIR = '_drafts'
+AUTHOR = 'Z33DD'
+
+
+def upload():
+    origin = repo.remote('origin')
+    origin.push()
+
+def commit(msg, files):
+    repo.index.add(files)
+    repo.index.commit(msg)
+
+def get_args():
+    parser = argparse.ArgumentParser(prog='blog')
+
+    parser.add_argument('mainarg', type=str, help="sync | new | publish")
+    parser.add_argument('--title', type=str)
+    parser.add_argument('--author', type=str)
+    parser.add_argument("--draft", help="Save as draft", action="store_true")
+
+    return parser.parse_args()
+
+def get_filename(arg):
+    title = arg['title'].replace(" ", "_")
+    date = arg['date']
+    ext = 'md'
+
+    return "{}_{}.{}".format(date, title, ext)
+
+def fetch_metadata():
+    today = date.today().strftime("%Y-%m-%d")
+
+    if args.author:
+        aux = str(args.author)
+    else:
+        aux = AUTHOR
+
+    metadata = {
+        'title': str(args.title),
+        'date': today,
+        'author': aux,
+        'layout': 'post',
+        'filename': ''
+    }
+
+    metadata['filename'] = get_filename(metadata)
+
+    return metadata
+
+def new_post():
+    metadata = fetch_metadata()
+
+    if args.draft:
+        POST_DIR = '_drafts'
+
+    file = "{}/{}".format(POST_DIR, metadata['filename'])
+
+    with open(file, 'w+') as post:
+        post.write('---\n')
+        post.write('title: {}\n'.format(metadata['title']))
+        post.write('date: {}\n'.format(metadata['date']))
+        post.write('author: {}\n'.format(metadata['author']))
+        post.write('---\n\n')
+
+    return file
+
+if __name__ == '__main__':
+    args = get_args()
+
+    # Current dir
+    cdir = os.path.dirname(os.path.realpath(__file__))
+    # Drafts dir
+    ddir = "{}/{}/".format(cdir, DRAFT_DIR)
+    # Posts dir
+    pdir = "{}/{}/".format(cdir, POST_DIR)
+
+    repo = Repo(cdir)
+    #repo.pull()
+
+    filelist = [f for f in listdir(ddir) if isfile(join(ddir, f))]
+
+    if args.mainarg == 'new':
+        filepost = new_post()
+        #subprocess.run([EDITOR, filepost])
+        os.system("{} {}".format(EDITOR, filepost))
+        commit("New post {}".format(args.title), filepost)
+        print("File: {}".format(filepost))
+
+    elif args.mainarg == 'publish':
+        fname = ''
+        title = str(args.title).replace(' ', '_')
+        for file in filelist:
+            if title in file:
+                fname = file
+        os.rename(ddir + fname, pdir + fname)
+        commit("Publish {}".format(fname), pdir+fname)
+        upload()
+
+    elif args.mainarg == 'sync':
+        msg = "Sync {}".format(date.today().strftime("%d/%m/%Y"))
+
+        for file in filelist:
+            repo.add(file)
+
+        repo.index.commit(msg)
+        upload()
