@@ -11,7 +11,7 @@ from os import listdir
 from os.path import isfile, join
 
 
-EDITOR = "cat "
+EDITOR = "atom "
 POST_DIR = '_posts'
 DRAFT_DIR = '_drafts'
 AUTHOR = 'Z33DD'
