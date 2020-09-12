@@ -34,7 +34,7 @@ Let's clarify some things:
 
 And, finally, I'm not the spokesman of the Libertarian cause, so I don't run daily life around my political orientation and I not the best people to explain you every nuance of a libertarian society.
 
-Actually I'm part of the Brazilian cypherpunk movement. We are a decentralized collective of individuals, in majority libertarians too, that discuss and broadcast the usage of technology and cryptology to reduce the powers of the state against peaceful people. Our You can read more at the [official site](https://cypherpunks.com.br/)in portuguese.
+Actually I'm part of the Brazilian cypherpunk movement. We are a decentralized collective of individuals, in majority libertarians too, that discuss and broadcast the usage of technology and cryptology to reduce the powers of the state against peaceful people. Our You can read more at the [official site](https://cypherpunks.com.br/) in portuguese.
 
 I start writing this to share my thinks with some random guys who can understand my poorly english and maybe know more people outside the world. Here you can expect me writing about technical stuff, decentralized technology, open source software and hardware, my views about what happens in the world and commentaries about whatever I want.
 
