@@ -26,7 +26,7 @@ Let's clarify some things:
 
 - No, I'm not some kid of far-right extremist who want to jail everyone who disagree with me,[ quite the opposite](https://www.libertarianism.org/topics/freedom-speech).
 
-- No, I'm not a racist or scientific racism advocate like[Stefan Molyneux](https://en.wikipedia.org/wiki/Stefan_Molyneux). In fact, I don't care about other people's ethnicity and I don't even know mine for sure. Anyway, I agree that individuals have [right to discriminate](https://www.cato.org/policy-report/marchapril-2016/libertarianism-right-discriminate) by any reason.
+- No, I'm not a racist or scientific racism advocate like [Stefan Molyneux](https://en.wikipedia.org/wiki/Stefan_Molyneux). In fact, I don't care about other people's ethnicity and I don't even know mine for sure. Maybe I will write about it some day but I agree that individuals have [right to discriminate](https://www.cato.org/policy-report/marchapril-2016/libertarianism-right-discriminate) by any reason.
 
 - Yes, I believe that vacines works.
 
