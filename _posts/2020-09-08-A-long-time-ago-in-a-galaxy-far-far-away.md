@@ -32,7 +32,7 @@ Let's clarify some things:
 
 - No, I'm not affiliate to the Libertarian Party or another party, using the government to end the government does not seem efficient.
 
-And, finally, I'm not the spokesman of the Libertarian cause, so I don't run daily life around my political orientation and I not the best people to explain you every nuance of a libertarian society.
+And, finally, I'm not the spokesman of the Libertarian cause, so I not the best people to explain you every nuance of a libertarian society and THIS WILL NOT A BLOG ABOUT POLITICS.
 
 Actually I'm part of the Brazilian cypherpunk movement. We are a decentralized collective of individuals, in majority libertarians too, that discuss and broadcast the usage of technology and cryptology to reduce the powers of the state against peaceful people. Our You can read more at the [official site](https://cypherpunks.com.br/) in portuguese.
 
