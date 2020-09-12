@@ -1,0 +1,56 @@
+==================================================================
+https://keybase.io/z33dd
+--------------------------------------------------------------------
+
+I hereby claim:
+
+  * I am an admin of https://z33dd.github.io
+  * I am z33dd (https://keybase.io/z33dd) on keybase.
+  * I have a public key ASAaY8632suWnTo76FIFFVRmBkJ9FiuQpjZzupIxONIiawo
+
+To do so, I am signing this object:
+
+{
+  "body": {
+    "key": {
+      "eldest_kid": "012050141a5c9d6e8b32ee555e1270857d7de704134ea9f0e202a3e03047a82a8ea70a",
+      "host": "keybase.io",
+      "kid": "01201a63ceb7dacb969d3a3be8520515546606427d162b90a63673ba923138d2226b0a",
+      "uid": "bdcb612cd461834c048c2aed715cc619",
+      "username": "z33dd"
+    },
+    "merkle_root": {
+      "ctime": 1599932858,
+      "hash": "5bdae0f0418ba15faccc5c332ea33d266e58ad12266dae112b3aae9b8fb4fa4f5c9675d6a5c7a148871aa360f95447e0e0cf59f4fe60e5badb66e82864f1589e",
+      "hash_meta": "2f69afbfc6b24d535969a79bb657a04b11830bc3c956725bff62996011146265",
+      "seqno": 17546675
+    },
+    "service": {
+      "entropy": "dTl6g4htiiv9yH+NSNpDgFPZ",
+      "hostname": "z33dd.github.io",
+      "protocol": "https:"
+    },
+    "type": "web_service_binding",
+    "version": 2
+  },
+  "client": {
+    "name": "keybase.io go client",
+    "version": "5.5.1"
+  },
+  "ctime": 1599932872,
+  "expire_in": 504576000,
+  "prev": "4f2f6f11d4afc02beb83f71c8bc1e3b906208c1caee0fb5c8c6d1ec67ddc8eaf",
+  "seqno": 32,
+  "tag": "signature"
+}
+
+which yields the signature:
+
+hKRib2R5hqhkZXRhY2hlZMOpaGFzaF90eXBlCqNrZXnEIwEgGmPOt9rLlp06O+hSBRVUZgZCfRYrkKY2c7qSMTjSImsKp3BheWxvYWTESpcCIMQgTy9vEdSvwCvrg/cci8HjuQYgjByu4PtcjG0exn3cjq/EILqkoM5PiDqNJMbRbswBUN6dAi2YjbVTUfgFX69TG8xRAgHCo3NpZ8RARxcDWcjr35dwGTviN0pZI5BDEbgiC38Sw6XrB4ebqE0ZCS3Zxesi6ngVaFd27qhSeUciiM42m7YU5ts3LlHmA6hzaWdfdHlwZSCkaGFzaIKkdHlwZQildmFsdWXEIAxomnpfcRf7Bh2jeNziqZDTXjU2gc3QtyVrw9u+at4no3RhZ80CAqd2ZXJzaW9uAQ==
+
+And finally, I am proving ownership of this host by posting or
+appending to this document.
+
+View my publicly-auditable identity here: https://keybase.io/z33dd
+
+==================================================================
