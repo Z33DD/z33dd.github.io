@@ -1,60 +1,64 @@
 <!DOCTYPE html>
 <html lang="{{ page.lang | default: site.lang | default: "en" }}">
-<title>{% if page.title %}{{ page.title | escape }} | {% endif %}{{ site.title | escape }}</title>
-<meta charset="{{ site.encoding }}">
-<link rel="shortcut icon" type="image/png" href="/favicon.ico">
-<meta name="viewport" content="width=device-width, initial-scale=1.0">
-<meta name="description" content="{{ page.excerpt | default: site.description | strip_html | normalize_whitespace | truncate: 160 | escape }}">
-<meta name="author" content="{{ page.author | default: site.author | escape }}">
-<meta name="generator" content="Jekyll v{{ jekyll.version }}">
-<link rel="canonical" href="{{ page.url | absolute_url }}">
-<link rel="stylesheet" href="{{ "/assets/css/minimal.css" | relative_url }}">
-<link rel="stylesheet" href="{{ "/assets/css/classes.css" | relative_url }}">
-{% if site.plugins contains "jekyll-feed" %}<link rel="alternate" href="{{ site.feed.path | default: "/feed.xml" | relative_url }}" type="application/atom+xml" title="{{ site.title }}">{% endif %}
-{% if page.mathjax or site.mathjax %}
-<link rel="stylesheet" href="{{ "/assets/katex/katex.min.css" | relative_url }}">
-<script defer src="{{ "/assets/katex/katex.min.js" | relative_url }}"></script>
-<script defer src="{{ "/assets/katex/contrib/mathtex-script-type.min.js" | relative_url }}"></script>
-{% endif %}
-{% if site.comments.disqus_shortname and page.layout == "post" %}<script src="//{{ site.comments.disqus_shortname }}.disqus.com/embed.js" async></script>{% endif %}
-{% if site.comments.isso_domain and page.layout == "post" %}<script data-isso="http://{{ site.comments.isso_domain }}" src="//{{ site.comments.isso_domain }}/js/embed.min.js"></script>{% endif %}
+<head>
+  <meta charset="{{ site.encoding }}">
+  <title>{% if page.title %}{{ page.title | escape }} | {% endif %}{{ site.title | escape }}</title>
+  <link rel="shortcut icon" type="image/png" href="/favicon.ico">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="{{ page.excerpt | default: site.description | strip_html | normalize_whitespace | truncate: 160 | escape }}">
+  <meta name="author" content="{{ page.author | default: site.author | escape }}">
+  <meta name="generator" content="Jekyll v{{ jekyll.version }}">
+  <link rel="canonical" href="{{ page.url | absolute_url }}">
+  <link rel="stylesheet" href="{{ "/assets/css/minimal.css" | relative_url }}">
+  <link rel="stylesheet" href="{{ "/assets/css/classes.css" | relative_url }}">
+  {% if site.plugins contains "jekyll-feed" %}<link rel="alternate" href="{{ site.feed.path | default: "/feed.xml" | relative_url }}" type="application/atom+xml" title="{{ site.title }}">{% endif %}
+  {% if page.mathjax or site.mathjax %}
+  <link rel="stylesheet" href="{{ "/assets/katex/katex.min.css" | relative_url }}">
+  <script defer src="{{ "/assets/katex/katex.min.js" | relative_url }}"></script>
+  <script defer src="{{ "/assets/katex/contrib/mathtex-script-type.min.js" | relative_url }}"></script>
+  {% endif %}
+  {% if site.comments.disqus_shortname and page.layout == "post" %}<script src="//{{ site.comments.disqus_shortname }}.disqus.com/embed.js" async></script>{% endif %}
+  {% if site.comments.isso_domain and page.layout == "post" %}<script data-isso="http://{{ site.comments.isso_domain }}" src="//{{ site.comments.isso_domain }}/js/embed.min.js"></script>{% endif %}
+</head>
+<body onload="document.body.className = localStorage.getItem('modeClasses') || '';">
+  <header class="icons">
+    <a href="{{ "/" | relative_url }}" class="title" style="width: 50%">{{ site.title | escape }}</a>
+    <p align="right">{{ site.description }}</p>
 
-<header class="icons">
-  <a href="{{ "/" | relative_url }}" class="title" style="width: 50%">{{ site.title | escape }}</a>
-  <p align="right">{{ site.description }}</p>
-
-  {% if site.navigation or site.external %}
-  <nav>
-    {% for item in site.navigation %}
-      {%- assign node = site.pages | where: "name", item.file | first -%}
-      {%- assign url = item.url | default: node.url -%}
-      {%- assign title = item.title | default: node.title -%}
-      <a aria-label="{{ title }}" href="{{ url | relative_url }}" {% if url == page.url %}class="selected"{% endif %}>
-        <span aria-hidden="true">{{ title }}</span>
+    {% if site.navigation or site.external %}
+    <nav>
+      {% for item in site.navigation %}
+        {%- assign node = site.pages | where: "name", item.file | first -%}
+        {%- assign url = item.url | default: node.url -%}
+        {%- assign title = item.title | default: node.title -%}
+        <a aria-label="{{ title }}" href="{{ url | relative_url }}" {% if url == page.url %}class="selected"{% endif %}>
+          <span aria-hidden="true">{{ title }}</span>
+        </a>
+      {% endfor %}
+      <a aria-label="Dark Mode" href="javascript:;" onclick="document.body.classList[(window.isDark=!window.isDark)?'add':'remove']('dark'); localStorage.setItem('modeClasses', document.body.className);">
+        <span aria-hidden="true" >Dark Mode</span>
       </a>
-    {% endfor %}
-    <a aria-label="Dark Mode" href="javascript:;" onclick="document.body.classList[(window.isDark=!window.isDark)?'add':'remove']('dark')">
-      <span aria-hidden="true" >Dark Mode</span>
-    </a>
-  </nav>
-    {% include menu.html menu=site.external icons=true %}
-  {% else %}
-    {% assign pages = site.pages | where_exp: "item", "item.title and item.sitemap != false" | sort: "order" %}
-    {% include menu.html menu=pages %}
-  {% endif %}
-  {% if site.sidebar and site.show_description %}
-    <div class="hidden description">{{ site.description }}</div>
-  {% endif %}
-</header>
+    </nav>
+      {% include menu.html menu=site.external icons=true %}
+    {% else %}
+      {% assign pages = site.pages | where_exp: "item", "item.title and item.sitemap != false" | sort: "order" %}
+      {% include menu.html menu=pages %}
+    {% endif %}
+    {% if site.sidebar and site.show_description %}
+      <div class="hidden description">{{ site.description }}</div>
+    {% endif %}
+  </header>
 
-{{ content }}
-<div style='text-align: center; color: #a5a5a5;'>
-  <p>All content licensed under <strong><a href="https://z33dd.github.io/license/" style="color: #a5a5a5">Creative Commons Zero</a></strong> unless otherwise stated.</p>
-  <p xmlns:dct="https://purl.org/dc/terms/" xmlns:vcard="https://www.w3.org/2001/vcard-rdf/3.0#">
-  <a rel="license"
-  href="http://creativecommons.org/publicdomain/zero/1.0/">
-  <img src="https://i.creativecommons.org/p/zero/1.0/88x31.png" style="border-style: none;" alt="CC0" />
-  </a>
-</div>
+  {{ content }}
+  <div style='text-align: center; color: #a5a5a5;'>
+    <p>All content licensed under <strong><a href="https://z33dd.github.io/license/" style="color: #a5a5a5">Creative Commons Zero</a></strong> unless otherwise stated.</p>
+    <p xmlns:dct="https://purl.org/dc/terms/" xmlns:vcard="https://www.w3.org/2001/vcard-rdf/3.0#">
+    <a rel="license"
+    href="http://creativecommons.org/publicdomain/zero/1.0/">
+    <img src="https://i.creativecommons.org/p/zero/1.0/88x31.png" style="border-style: none;" alt="CC0" />
+    </a>
+  </div>
+
+</body>
 
 </html>
